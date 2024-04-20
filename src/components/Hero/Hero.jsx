@@ -8,7 +8,7 @@ export const Hero = () => {
   const [text, setText] = useState('');
   const fullText =
     "Hello, My name is\nMohit Sharma\nFull-Stack Developer\nI design and develop services for customers of all sizes,\n specializing in creating stylish,\n modern websites, web services and online stores."; // Your full text for typing effect
-  const delay = 100; // Decrease delay for faster typing effect
+  const delay = 30; // Decrease delay for faster typing effect
   const pauseDelay = 3000; // Pause duration after typing effect completes
 
   useEffect(() => {
