@@ -1,0 +1,90 @@
+/* Navbar Container */
+.navbar {
+  width: 120px; /* Adjust width as needed */
+  flex-shrink: 0;
+  background-color: transparent; /* Make the background transparent */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Drawer Paper Styles */
+.drawerPaper {
+  width: 120px; /* Adjust width as needed */
+  background-color: transparent !important; /* Make the background transparent */
+  border: none !important; /* Remove border */
+  color: white !important; /* Adjust text color as needed */
+  display: flex;
+  flex-direction: column; /* Make links vertical */
+  justify-content: space-evenly; /* Align links to the start */
+}
+
+/* List Item Styles */
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertically align items */
+  justify-content: center; /* Center items horizontally */
+  transform-origin: center; /* Rotate from the center */
+  margin-bottom: 3vh;
+}
+
+/* List Item Text Styles */
+.listItem a {
+  text-decoration: none; /* Remove text decoration */
+  color: inherit; /* Inherit text color */
+  font-size: 1.2rem; /* Adjust text size as needed */
+  display: flex;
+  flex-direction: column; /* Make the link a block-level element */
+  text-align: center; /* Center the text within the link */
+}
+
+
+/* ListItem Styles on Hover */
+.listItem:hover {
+  text-decoration: line-through !important;
+  background-color: transparent !important; /* Change background color on hover */
+  color:  rgb(0, 255, 234) !important; /* Change text color on hover */
+}
+
+.active{
+  text-decoration: line-through !important; /* Remove text decoration */
+  background-color: transparent !important; /* Change background color on click */
+  color: rgb(0, 255, 234) !important; /* Change text color on click */
+  font-size: 1.2rem; /* Adjust text size as needed */
+}
+
+.scrollActive{
+  text-decoration: line-through !important; /* Remove text decoration */
+  background-color: transparent !important; /* Change background color on click */
+  color: rgb(0, 255, 234) !important; /* Change text color on click */
+  font-size: 1.2rem; /* Adjust text size as needed */
+}
+
+
+/* Logo Link Styles */
+.logoLink {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+/* Logo Image Styles */
+.logoImg {
+  width: 120px; /* Adjust logo width as needed */
+  height: 120px; /* Adjust logo height as needed */
+}
+
+/* Social Icons Container Styles */
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; /* Push social icons to the bottom */
+  margin-bottom: 20px; /* Add some margin at the bottom */
+
+  width: 90% !important; 
+}
+
+/* Icon Button Styles */
+.iconButton {
+  color: rgb(255, 255, 255) !important;
+}

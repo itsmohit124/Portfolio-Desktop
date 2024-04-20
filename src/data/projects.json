@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Flipkart Clone",
+      "imageSrc": "projects/flipkart-clone.png",
+      "description": "E-commerce web app emulating Flipkart is a MERN stack project, encompassing product catalog, user authentication, shopping cart, payment integration, ensuring scalability and responsiveness.",
+      "skills": ["MongoDb","ExpressJs", "ReactJs", "NodeJS"],
+      "demo": "https://flipkartclone-ecommerce.netlify.app/",
+      "source": "https://github.com/itsmohit124/Flipkart_Clone"
+    },
+    {
+      "title": "Dashboard",
+      "imageSrc": "projects/AQI-Dashboard.png",
+      "description": "Currently working on full-stack dashboard project using Ruby on Rails which fetchs real time data from sensors and shows the reading based on the calculated values depending on the parameters",
+      "skills": ["ROR","REST API", "MySQL"],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "title": "HMS",
+      "imageSrc": "projects/hms.png",
+      "description": "The Hospital Management System (HMS) is a Java-based project for efficient handling of patient data, doctor information, and billing. It utilizes Java, OOP, and a user-friendly UI with Swing and JOptionPane.",
+      "skills": ["Java","JOptionPane", "OPPs"],
+      "demo": "",
+      "source": "https://github.com/itsmohit124/Hospital_Management_System"
+    }
+  ]
+  

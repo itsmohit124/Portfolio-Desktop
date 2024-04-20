@@ -1,0 +1,131 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  padding: 35px 10px 20px 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px !important;
+  font-weight: 700!important;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.skills {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+.history {
+  margin-top: 10px!important;
+  margin-left: 30px!important;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px !important;
+}
+
+.historyItemTitle{
+  font-size: 26px !important;
+  font-weight: 700!important;
+  letter-spacing: 1.75px;
+}
+
+.historyItem:hover {
+  gap: 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #19376d 0%, rgb(25, 54, 109) 100%);
+  background-size: 100% 100%;
+}
+
+.linkSrc{
+  text-decoration: none !important;
+  color: red !important;
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}
+
+.linkSrc {
+  width: 100%;
+  color: orangered;
+  text-decoration: none;
+  
+}

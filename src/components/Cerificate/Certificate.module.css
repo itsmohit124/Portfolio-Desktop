@@ -1,0 +1,72 @@
+.certifications {
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+    font-family: roboto;
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+
+  h2{
+    padding-bottom: 40px;
+  }
+  
+  .resumeCard {
+    display: flex;
+    height: 570px;
+    width: 850px;
+    margin: auto; /* This will center the card horizontally */
+  }
+
+
+  /* Certificate.module.css */
+
+  .fullScreenPDFContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1600; /* Ensure it's above other content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fullScreenPDF {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 17px;
+    right: 125px;
+    color: red;
+    z-index: 1700; /* Ensure it's above the PDF viewer */
+  }
+
+  
+
+@media screen and (max-width: 830px) {
+    .certificate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+      }
+    .para1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+    }
+}

@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+/* Footer Container */
+.footer {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  margin-bottom: 20px !important;
+}
+
+
+/* Footer Section */
+.section {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  justify-content: right;
+  margin-right: 60px;
+}
+
+/* Footer Text */
+.sectionTypography {
+  color: #fff;
+  width: 50%;
+  font-size: 1.5rem !important;
+  margin-right: 60px !important; /* Adjust the margin between the image and text */
+}
+
+/* Bottom Bar */
+.bottomBar {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  justify-content: right;
+  margin-top: 2rem;
+}
+
+/* Copyright Text */
+.copyRight {
+  color: #fff;
+  font-size: 0.7rem !important;
+  margin-right: 9vw !important;
+  word-spacing: 0.3rem !important;
+}

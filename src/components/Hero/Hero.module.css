@@ -1,0 +1,91 @@
+@import "../../vars.css";
+
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 100%;
+  padding-top: 6vh;
+  padding-left: 12rem;
+  padding-bottom: 0.7vh;
+}
+
+/* Phone Number */
+.phone-info {
+  padding-right: 4rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Email */
+.email-info {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Home Center */
+.home-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7vw;
+  margin-top: -10vh;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Home Content */
+.home-content {
+  width: 100%;
+  margin-left: 6vw;
+}
+
+.upper {
+  font-family: Arial, sans-serif;
+  font-size: 1.4rem !important;
+  color: #fff;
+  text-align: left;
+}
+
+/* Name */
+.name {
+  font-family: Arial, sans-serif;
+  font-size: 4rem !important;
+  font-weight: 800 !important;
+  color: #fff;
+  text-align: left;
+  line-height: 1 !important;
+}
+
+/* Role */
+.role {
+  font-family: Arial, sans-serif;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: yellow;
+  text-align: left;
+}
+
+/* Description */
+.description {
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: left;
+}
+
+/* Image Container */
+.image-container {
+  width: 155%;
+  text-align: right;
+}
+
+/* Image */
+.image {
+  width: 100%;
+}

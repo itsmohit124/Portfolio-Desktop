@@ -1,0 +1,23 @@
+[
+    {
+      "role": "LeetCode",
+      "experiences": ["Successfully solved over 240+ complex problems on LeetCode, demonstrating a high level of analytical thinking and coding expertise."],
+      "imageSrc": "history/leetcode.png",
+      "link": "https://leetcode.com/Mohit124/"
+    },
+    {
+      "role": "HackerRank",
+      "experiences": ["Attained a 5-Star rating in C++ on HackerRank, showcasing advanced proficiency and problem-solving skills."],
+      "imageSrc": "history/hacker.png",
+      "link": "https://www.hackerrank.com/profile/itsmohit124"
+    },
+    {
+      "role": "CodeRush",
+      "experiences": [
+        "Awarded rank 22nd in CodeRush 2023 (B.I.T Mesra), highlighting exceptional performance in competitive programming and algorithmic challenges."
+      ],
+      "imageSrc": "history/coderush.png",
+      "link": "https://d3uam8jk4sa4y4.cloudfront.net/static/certificates/52/Mohit%20Sharma.png"
+    }
+  ]
+  
